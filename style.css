@@ -1,0 +1,107 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(54, 54, 54);
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: none;
+
+}
+
+#opening-screen{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  font-family: "Pixellari";
+  font-size: min(5vh);
+  align-items: center;
+  justify-content: center;
+  background-color: lightyellow;
+  border-top: 0.5vh solid black;
+  border-bottom: 0.5vh solid black;
+
+}
+
+.title {
+  margin: 3.5vh;
+  text-align: center;
+}
+
+.title-img{
+  display: flex;
+  width: 10vw;
+  height: auto;
+  min-width: 100px;
+  max-width: 200px; 
+}
+
+
+#title-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.play-button{
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  font-family: "Pixellari";
+  font-size: 90px;
+  color: rgb(61, 56, 56);
+  animation: pulse 2s infinite;
+}
+
+.play-button:hover{
+  opacity: 0.5;
+}
+
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(1.1);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+
+ 
+canvas {
+  display: none;
+  border: 0.5vh solid black;
+}
+
+@font-face {
+  font-family: 'Pixellari';
+  src: url('fonts/Pixellari.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Retro Computer';
+  src: url('fonts/retro_computer_personal_use.ttf') format('truetype');
+}
