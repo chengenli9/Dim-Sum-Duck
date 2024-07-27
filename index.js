@@ -48,7 +48,7 @@ const ITEMS_CONFIG = [
   {width: 100 /1.5 , height: 70 / 1.5, image: 'images/eggtart1.png'},
   {width: 90 /1.5 , height: 120 / 1.5, image: 'images/tea_cup.png'},
   {width: 110/ 1.5, height: 130 / 1.5, image: 'images/takeout.png'},
-  {width: 140/ 1.5, height: 70 / 1.5, image: 'images/shumai.png'},
+  {width: 95/ 1.5, height: 90 / 1.5, image: 'images/shumai2.png'},
   {width: 140/ 1.5, height: 80 / 1.5, image: 'images/doughballs.png'},
   {width: 120/ 1.5, height: 80 / 1.5, image: 'images/pineapple_bun.png'}
 ];
