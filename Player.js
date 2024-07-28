@@ -56,13 +56,13 @@ export default class Player {
   }
 
   keydown = (event) => {
-    if (event.code === "Space") {
+    if (event.code === "Space" || event.keyCode === 38) {
       this.jumpPressed = true;
     }
   }
 
   keyup = (event) => {
-    if (event.code === "Space") {
+    if (event.code === "Space" || event.keyCode === 38) {
       this.jumpPressed = false;
     }
   }
